@@ -69,30 +69,26 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
 
-/* h1, h2, h3, h4, h5, h6 a {
-  font-family: var(--font-family-title);
-} */
-
-h1, h2, h3, h4, h5, h6 a[href] {
-  font-family: var(--font-family-title);
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 a[href]:visited {
+a:visited {
   font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 a[href]:hover {
+a:hover {
   text-decoration-line: underline;
 }
 
-h1, h2, h3, h4, h5, h6 a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
-
+}
 
 
 /* 
