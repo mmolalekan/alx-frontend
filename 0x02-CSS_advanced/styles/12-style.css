@@ -41,10 +41,6 @@ body {
   line-height: var(--line-height-base) ; /* not min-height*/
 }
 
-a {
-  color: var(--text-color);
-}
-
 .visually-hidden {
   display: none;
 }
