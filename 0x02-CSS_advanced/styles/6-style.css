@@ -1,13 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap)
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-  --text-color:var(--color-black);
+  --text-color: var(--color-black);
   --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
   --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
-  --font-size-small:1.2rem;
+  --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
   --font-size-x-large: 2.3rem;
@@ -28,6 +30,11 @@ body {
   font-weight: var(--font-weight-regular);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
 a {
   color: var(--text-color);
 }
@@ -36,18 +43,10 @@ a {
   display: none;
 }
 
-.card-category {
-  color: var(--color-primary);
-}
-
 .section-tagline {
   color: var(--color-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: var(--font-weight-bold);
-}
-
-h1, h2, h3, h4, h5, h6 a {
-  font-family: var(--font-family-title);
+.card-category {
+  color: var(--color-primary);
 }
