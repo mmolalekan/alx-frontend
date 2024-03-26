@@ -216,7 +216,7 @@ template {
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0px 0px 3rem;
+  --nav-item-margin: 0rem 0rem 3rem;
   --nav-item-link-hover: var(--color-primary);
 }
 
